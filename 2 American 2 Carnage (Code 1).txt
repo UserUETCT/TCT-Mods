@@ -1,0 +1,897 @@
+
+// Don't look to closely. 
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 10,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+jet_data = {
+    "headerColor": "#ff0000",
+    "windowColor": "#0000ff",
+    "containerColor": "#0000ff",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://i.guim.co.uk/img/media/807899b700262d9c38068432dfa68f9c87019fb9/0_0_4189_2514/master/4189.jpg?width=1300&dpr=2&s=none",
+    "backgroundImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Donald_Trump_takes_the_oath_of_office_%282025%29_%28alternate%29.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "“When was the last time that you saw this country have a victory? We dont have victories. What things am I going to do differently? Almost everything.”",
+    "gameTitle": "2 AMERICAN 2 CARNAGE"
+}
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2025-2029",
+            "summary": "<h1>He's commin' back to serve second term</h1><p>The CrOoKeD DemonRats have stopped at nothing to make sure you never come back to office. They sent their activist \"Judges\" to try you for \"Overthrowing the Government\" back when <del>Antifa terrorists</del> <del>FBI agents</del> great and amazing MAGA patriots stormed the Hill. They sent birdbrain to gather the RINO TRAITORs against you, but were stopped by our great Americans, like in Nevada. Then there was Sleepy Joe Hilden, who was DESTROYED when you faced him in the debates. Finally they sent comrade Kamabla to talk about <del>our</del> Project 2025, have a laugh, and call us weird. She was DESTROYED when our <del>Musk</del> brave MAGA patriots <del>rigged</del> took to the ballot boxes and won us ALL the swing states.</p><p><b>Now with victory, millions of Americans shall look upon Trump and be filled with hope, as the day of freedom and bread dawns.</p><h3><u>The Second American Revolution begins now.</u></b></h3>",
+            "image_url": "https://i.guim.co.uk/img/media/807899b700262d9c38068432dfa68f9c87019fb9/0_0_4189_2514/master/4189.jpg?width=1300&dpr=2&s=none",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.guim.co.uk/img/media/76f5e5b936dbbc0f6af587782a1926bfba189609/7_0_2889_1734/master/2889.jpg?width=1900&dpr=2&s=none&crop=none",
+            "recommended_reading": "",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2025-2029"
+    }
+]
+
+campaignTrail_temp.credits = "The Trve PQtRIOTs"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Donald \"Krasnov\"",
+            "last_name": "Trump",
+            "election": 20,
+            "party": "MAGAist-Trumpist",
+            "state": "Little Saint James",
+            "priority": 1,
+            "description": "<p><b>Chuan Jianguo</b>, the time has come. The neoliberal bourgeoise lie tattered and disheartened at your glorious victory. The old Party of Reagan now walks lockstep in your ranks. The time for revolution is nigh.</p><p>Ever since they first indited you, you have been working to dismantle the American regime. You tried to vilify the identity of millionaire among the public. You tried to destroy the duopoly with the party of Ross. You even incited partisan divide to destroy the nation from within.</p><p>The land is now divided, the people struggling and your masses as loyal as ever. The Revolution begins now.</p><b>Long live our new Soviet motherland</b>",
+            "color_hex": "#a60d0d",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i1.sndcdn.com/artworks-P3wPSy0B1tP1LCWZ-UC7Y2A-t1080x1080.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Josef Dzhugashvili ",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "The Red Enlightenment",
+            "state": "Redneck Coal-lands",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#a60d0d",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://people.com/thmb/3ereDX-OiOF6Jda9ZND3X8UAyDQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(649x1399:651x1401)/JDVance-Halloween-X-110125-3-c1c9824893c14fecab0c5f7516bd98cc.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Vance was born like many of the Patriotic MAGA vanguardists from the poor and he forgotten. Those abandoned by the Duopoly. Those that for now cling to the instruments of revolution and to opium. He once truly believed in the lies spewed by the party of bigger business, but now things have changed. The Hillbilly is now one of the most loyal of the MAGAist-Trumpists. With the new doctrines of Communo-Technocracy, he stands beside you in the destruction of the American regime.</p><b>Viva la Acceleración</b>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Greasy",
+            "last_name": "Neolieberals",
+            "election": 20,
+            "party": "Neolieberal",
+            "state": "Who Cares",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "meh",
+            "last_name": "duh",
+            "election": 20,
+            "party": "Eh",
+            "state": "idk",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Aspiring Billionaire",
+            "election": 20,
+            "party": "Liebertarian",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "President",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffff00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Useful Idiot",
+            "election": 20,
+            "party": "Blue Spoiler",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 207,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "President",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00ff00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 152144,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 146550,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 205
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106805,
+        "fields": {
+            "candidate": 202,
+            "running_mate": 206
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 150578,
+        "fields": {
+            "candidate": 203,
+            "running_mate": 207
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+e=campaignTrail_temp;
+
+  $("#game_start").click((event) => {
+    event.preventDefault();
+    $("#election_id_button").click((event) => {
+        event.preventDefault();
+        corrr = '\n              <h2>THE GREAT LEAP BACKWARDS</h2><font id="wittyquote" size="4" color="white"><em>“The bullet pierced my ear, but I can still hear the voice of the Party.”</em></font>\n            ';
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#4d0000";
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#9e0000";
+        document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+        $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+        $(".container")[0].style.backgroundColor = "#a01313";
+        document.getElementById("header").src = "https://www.economist.com/cdn-cgi/image/width=1096,quality=80,format=auto/content-assets/images/20250405_IRD000.jpg";
+        document.body.background = "https://d2eehagpk5cl65.cloudfront.net/img/c1920x1080-w1920-q80/uploads/2025/11/cover1.jpg.webp";
+        document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#fd3a3a!important;}</style>";
+        e.election_json[0].fields.summary = "<h1>The Revolution Forever</h1><p>The Soviets may have fallen, but the spirit of the October Revolution shall endure forever. The Americans may have won the cold war, they may have entered into the post-Soviet age as the leader of the whole world, but even the Roman empire fell. The time is right. The Evil Empire is split heavily between the Venetoi and Prasinoi. Their nation, and globe alongside, has been shocked by the first term. The Vanguardists are fanatic and ever loyal. The capital of the Bourgeoise shall be done with, and let the heavens fall with it.</p><p><u><b>The True American Revolution Begins Now</b></u></p>"
+        e.election_json[0].fields.image_url = "https://www.whatsonweibo.com/wp-content/uploads/2024/07/triumph.jpg"
+        campaignTrail_temp.credits = "<b>T</b>rumpist <b>P</b>arty of the <b>U</b>nited <b>S</b>tates of <b>A</b>merica"
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+        music.pause();
+        setInterval(changeFontColour, 200)
+  
+    })
+  })
+
+e = campaignTrail_temp;
+e.collect_results = true;
+
+if (!e.runIntro) {
+var music = new Audio('https://upload.wikimedia.org/wikipedia/commons/8/82/United_States_Air_Force_Concert_Band_-_Hail_to_the_Chief.ogg');
+music.volume = 0.5;
+music.loop = true;
+music.play();
+
+let songsPlayed = 0;
+ musicMode = () => {
+  songsPlayed = 0;
+  // Initialise custom music
+
+  $("#music_player")[0].children[0].style.display = "none"
+  $("#music_player")[0].children[1].style.display = "none"
+
+  document.getElementById("modLoadReveal").style.display = "none"
+  document.getElementById("modloaddiv").style.display = "none"
+
+  musicBox = document.getElementById("music_player")
+  musicBox.style.display = ""
+
+  var trackSel;
+  e = campaignTrail_temp
+  e.selectedSoundtrack = 0
+
+  toTime = (seconds) => {
+      var date = new Date(null);
+      date.setSeconds(seconds);
+      return date.toISOString().substr(11, 8);
+  }
+
+  generateTime = () => {
+      // Get the audio element
+      var audio = document.getElementById("campaigntrailmusic");
+
+      timeTracker = document.createElement("div");
+      timeTracker.style = `
+text-align:left;
+border-style:solid;
+border-width:3px;
+height:150px;
+width:200px;
+background-color:#999999;
+float:right;
+padding: 10px;
+`
+      $("#trackSelParent")[0].prepend(timeTracker);
+      $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+      // Create a new element to display the current position of the audio
+      var positionDisplay = document.createElement("gg");
+      positionDisplay.id = "position-display";
+
+      // Create a new slider element to change the time
+      var timeSlider = document.createElement("input");
+      timeSlider.type = "range";
+      timeSlider.min = 0;
+      timeSlider.max = 1;
+      timeSlider.step = 0.001;
+      timeSlider.value = 0;
+      timeSlider.style.width = "200px";
+      timeSlider.id = "time-slider";
+
+      var pausePlay = document.createElement("button");
+      pausePlay.id = "position-display";
+      pausePlay.innerHTML = "<b>Pause</b>"
+      pausePlay.style.width = "100%";
+
+
+      pausePlay.addEventListener("click", event => {
+          event.preventDefault();
+          updatePositionDisplay();
+          let audio = document.getElementById("campaigntrailmusic");
+          if (audio.paused) {
+              audio.play();
+              event.target.innerHTML = "<b>Pause</b>";
+              return;
+          }
+          audio.pause();
+          event.target.innerHTML = "<b>Play</b>";
+          return;
+      })
+
+      var volumeLabel = document.createElement("gg");
+      volumeLabel.id = "volume-label";
+      volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+      var volumeSlider = document.createElement("input");
+      volumeSlider.type = "range";
+      volumeSlider.min = 0;
+      volumeSlider.max = 1;
+      volumeSlider.step = 0.001;
+      volumeSlider.value = 0;
+      volumeSlider.style.width = "200px";
+      volumeSlider.id = "volume-slider";
+
+      volumeSlider.value = audio.volume;
+
+      timeTracker.appendChild(pausePlay);
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(positionDisplay);
+      timeTracker.appendChild(timeSlider);
+      timeTracker.appendChild(volumeLabel);
+      timeTracker.appendChild(volumeSlider);
+
+      updatePositionDisplay();
+
+      //for (let i = 0; i < 10; i++)
+      //timeTracker.append(document.createElement("br"));
+
+
+      // Function to update the position display
+      function updatePositionDisplay() {
+          positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+          timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+      }
+
+      // Function to change the time of the audio
+      function changeTime() {
+          positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+          audio.currentTime = timeSlider.value * audio.duration;
+      }
+
+      updateVolume = event => {
+          audio.volume = event.target.value;
+      }
+
+      // Update the position display and slider every second
+      setInterval(updatePositionDisplay, 1000);
+
+      // Listen for changes to the time slider and change the time of the audio
+      timeSlider.addEventListener("input", changeTime);
+      volumeSlider.addEventListener("input", updateVolume)
+  }
+function newMusicPlayer() {
+        trackSel = document.createElement("div");
+        trackSel.id = "trackSelParent"
+        let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+        z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+        for (i in soundtracks) {
+            if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+            }
+        }
+        z += `</select></b><br><br>`
+            // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+        for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+            let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+            let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+            z += b
+        }
+        z += "</div><br><br>"
+        trackSel.innerHTML = z
+  
+        // select correct song
+  
+        musicBox.appendChild(trackSel);
+        Array.from(document.getElementById("trackSel").children).filter(f => {
+            return f.tagName == "LABEL"
+        }).map(f => f.children[0])[0].checked = true
+  
+        // set soundtrack changer
+  
+        soundtrackSelector = document.getElementById("selectSoundtrack")
+        soundtrackSelector.onchange = function() {
+            for (i in soundtracks) {
+                if (soundtracks[i].name == soundtrackSelector.value) {
+                    e.selectedSoundtrack = i
+                    break
+                }
+            }
+            document.getElementById("trackSelParent").remove()
+            newMusicPlayer()
+        }
+  
+        var matches = document.querySelectorAll('.trackSelector');
+  
+        for (match in matches) {
+            matches[match].onchange = function() {
+                audio = $("#campaigntrailmusic")[0];
+                audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                audio.currentTime = 0
+            }
+        }
+  
+        musicBox.children[2].loop = false
+        musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+        musicBox.children[2].onended = function() {
+            console.log("next track")
+            let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+            let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    return f.tagName == "LABEL"
+                }).map(f => f.children[0])
+                //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+            buttons[newSel].click()
+            songsPlayed++; // Increment the songs played counter
+      
+         
+        }
+          
+        for (w = 0; w < 7; w++) {
+            document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+        }
+  
+        generateTime();
+    }
+  
+    clamp = function(a, max, min, overflow = true) {
+        if (overflow) {
+            return a > max ? min : a < min ? max : a;
+        }
+        return a > max ? max : a < min ? min : a;
+    }
+  
+  
+    // Track list
+  
+    var soundtracks = {
+        0: {
+          name: "Voice of the Revolution",
+          tracklist: [
+            {
+              "name": "USSR State Anthem",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Soviet_Union_national_anthem_%28instrumental%29%2C_1977.oga"
+            },
+            {
+              "name": "La Internationale",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Internationale_orchestral_arrangement.ogg"
+            },
+            {
+              "name": "Workers Marseillaise",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/%D0%93%D0%B8%D0%BC%D0%BD_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%A0%D0%94%D0%A4%D0%A0_%28%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F-%D0%9C%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D1%8C%D0%B5%D0%B7%D0%B0%29.oga"
+            },
+            {
+              "name": "A las Barricadas/ Whirlwinds of Danger/ Warszawianka 1905",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/A_las_barricadas_%28Instrumental%29.ogg"
+            },
+            {
+              "name": "March of the Volunteers",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/March_of_the_Volunteers_instrumental.ogg"
+            },
+            {
+              "name": "Kominternlied",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/Kominternlied_-_Anthem_of_the_Comintern_4.mp3"
+            },
+            {
+              "name": "United Front Song/ Einheitsfrontlied",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/United_Front_Song_from_Lansbury%27s_Labour_Weekly.ogg"
+            },
+            {
+              "name": "Workers' Hymn",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/ICBSA_Corale_Verdi_Milano_-_Inno_dei_lavoratori.oga"
+            },
+            {
+              "name": "March of the Enthusiasts",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/%D0%9C%D0%B0%D1%80%D1%88_%D1%8D%D0%BD%D1%82%D1%83%D0%B7%D0%B8%D0%B0%D1%81%D1%82%D0%BE%D0%B2.ogg"
+            }
+          ]
+        },
+        1: {
+          name: "E",
+          tracklist: [
+          ]
+        }
+
+    }
+  
+    // Set up new music player
+  
+    newMusicPlayer()
+}
+
+  $("#game_start").click((event) => {
+    event.preventDefault();
+    $("#election_id_button").click((event) => {
+        musicMode()
+
+        setInterval(changeFontColour, 200)
+  
+    })
+  })
+
+}
+
+e.displayTooltips = true;
+
+tooltipList = [
+
+    {searchString: "They were dumfounded.", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/ElectoralCollege2024.svg/960px-ElectoralCollege2024.svg.png> They doubted us."},
+    {searchString: "My heart goes out to you.", explanationText: "<img src=https://cdn.i24news.tv/uploads/76/5e/da/0a/8e/51/47/16/b7/6c/3f/07/b3/02/c8/84/765eda0a8e514716b76c3f07b302c884.jpg?width=996&type=webp> Better in original German."},
+    {searchString: "true christian", explanationText: "<img src=https://i.dailymail.co.uk/1s/2019/06/01/16/14234802-7094061-image-a-35_1559404239927.jpg> Even the devil won't have him."},
+    {searchString: "Great Leap Backwards", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/a/a7/Backyard_furnace4.jpg> We shall rebuild our might."},
+    {searchString: "Lord of Eternal Tariff", explanationText: "<img src=https://african.business/wp-content/uploads/2025/11/000_38vt4kd-scaled.jpg> aka, 10000 tariff grandpa."},
+    {searchString: "ICE", explanationText: "<img src=https://eng.ipn.gov.pl/dokumenty/zalaczniki/2/mini/2-56097_m.png> Enforcers of immigration."},
+    {searchString: "trans people", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/f/f9/Institut_f%C3%BCr_Sexualwissenschaft_-_Bibliothek_1933.jpg> Between bourgeois degeneracy and communist indoctrination."},
+    {searchString: "A big bill. A beautiful bill. A big beautiful", explanationText: "<img src=https://media.npr.org/assets/img/2012/09/05/82169336_13305947-156f196d53ba45ef81724dfada5e82c51ef92f75.jpg?s=1200&c=85&f=webp> Uhhh... wrong image."},
+    {searchString: "Reagan", explanationText: "<img src=https://www.reaganlibrary.gov/public/styles/large/public/archives/photographs/large/h5a.jpg?itok=7M9DGdTH> I Take great pride in presenting, my friend from Minneapolis, Mr. Hubert H. Humphrey."},
+    {searchString: "citizens go too", explanationText: "<img src=https://s.yimg.com/ny/api/res/1.2/74RGMC6yyqczniPTWEyQIQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/thewrap.com/724aff136f2f1a50fc01dccd1aadb0f2> They are MS13."},
+    {searchString: "Lion King rebels", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/8/8a/Simba_offensive.svg> "},
+    {searchString: "used to be a hotel", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/d/d5/Hotel_Rwanda_movie.jpg> Great film."},
+    {searchString: "What was that about minerals", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/c/ca/SRSG_visits_coltan_mine_in_Rubaya_%2813406579753%29.jpg> This time there is no chopping arms, but child labor is fine."},
+    {searchString: "People being kicked out of their homes", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/7/7a/1948_Arab-Israeli_War_%28997008136589405171%29_%28cropped%29.jpg> Wait, wrong conflict."},
+    {searchString: "Israeli puppet", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/9/9d/AIPAC_logo_%282020%29.svg> American group, run by Americans, funded by Americans, to pay Americans, to funnel American taxpayer money into Israel."},
+    {searchString: "international cooperation", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/1/1b/Warsaw_Pact_Logo.svg> The only true international group."},
+    {searchString: "Congress is Republican", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/2/20/US_Capitol_Building_June_2025.jpg> Three in the Senate, four in the House."},
+    {searchString: "Maduro", explanationText: "<img src=https://npr.brightspotcdn.com/dims4/default/c7f6081/2147483647/strip/true/crop/1024x682+0+0/resize/1760x1172!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2F1f%2F3c9f72fc4d4ea4c65e17c6097409%2Fap25008145169862.jpg> Not real communism."},
+    {searchString: "Tylenol", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/b/ba/Extra_Strength_Tylenol_and_Tylenol_PM.jpg> Autsm."},
+    {searchString: "private data", explanationText: "<img src=https://i.guim.co.uk/img/media/bb75f9572850dcb8c23d8a95bea65def84a97e1f/0_0_3000_1801/master/3000.jpg?width=1900&dpr=2&s=none&crop=none> Time to rape personal privacy again."},
+    {searchString: "Department of Government Efficiency", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/5/50/Elon_Musk_%2854349592271%29.jpg> Isn't that someone else's thing."},
+    {searchString: "white vans", explanationText: "<img src=https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/39ED/production/_88692841_creepyvan1.png.webp> ICE Cream too."},
+    {searchString: "NATO", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gunther_Fehlinger-Jahn.jpg/500px-Gunther_Fehlinger-Jahn.jpg> Damn the enemy of Warsaw."},
+    {searchString: "vote the Liberals back in power", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/c/cc/Opinion_polling_during_the_pre-campaign_period_of_the_45th_Canadian_federal_election.svg> America influencing elections again."},
+    {searchString: "Greenland", explanationText: "<img src=https://cdn.abcotvs.com/dip/images/18422450_011726-wabc-greenland-anti-trump-march-AP-pic1.jpg> We are gonna need a new island."},
+    {searchString: "thank you", explanationText: "<img src=https://s.yimg.com/ny/api/res/1.2/kAXOzVWcuywMl4FuhdnC4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTk0NztjZj13ZWJw/https://media.zenfs.com/en/people_218/b26719bc37a06cdf37eadb6da40e30ab> don't forget to say it."},
+    {searchString: "seX", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg> The social media site formerly known as Twitter."},
+    {searchString: "Tuddeh", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/8/82/Tudeh.PNG> In another timeline."},
+    {searchString: "The Epstein Files", explanationText: "█████ █████ █████ ███ █████ ███████████ ██████████ █████"},
+    {searchString: "motorcyclists", explanationText: "<img src=https://images.news18.com/ibnlive/uploads/2025/06/MixCollage-09-Jun-2025-07-00-AM-4127-2025-06-35c8a2db052d66cd5aff2eba36913a9e.jpg>"},
+    {searchString: "frogs", explanationText: "<img src=https://mirrorball.themarshallproject.org/ZsXfO9aQSg9-1Ikg20qmrqFw00oCIH4Yl5PxCq9-5Ec/w:2000/aHR0cHM6Ly9kMm0x/OXBtdnRzNWJvYi5j/bG91ZGZyb250Lm5l/dC9tM3NwazRmb3ph/a3F2aG5pbWRmbGNx/NGl2endtL0dFVFRZ/X0ZSSVZPTElUWV9m/cm9nXzI1MTAyMi5q/cGc>"},
+    {searchString: "Obamacare", explanationText: "<img src=https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2200303302.jpg?c=16x9&q=h_653,w_1160,c_fill/f_avif> Rightwing healthcare so good, it leads to dead billionaires."},
+    {searchString: "illegal immigrants", explanationText: "<img src=https://www.hindustantimes.com/ht-img/img/2025/06/06/550x309/Elon_Musk_Donald_Trump_Row_Fight_Social_Media_1749175059019_1749175059219.png> Koch brothers immigrants."},
+    {searchString: "Trump Route for International Peace and Prosperity", explanationText: "<img src=https://i.guim.co.uk/img/media/dd9d3f486a5cb9a5d71ba7645a42bdd48e33ef8a/658_239_3035_2428/master/3035.jpg?width=1200&quality=85&auto=format&fit=max&s=ab65f07ea5c89273dbefac7054f92a8c> One less war."},
+    {searchString: "purge", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/b/be/Stalin_and_Molotov_along_the_Volga%E2%80%93Don_Canal%2C_Nikolai_Yezhov_removed.jpg> Not as great as yours."},
+    {searchString: "Pol Pot", explanationText: "<img src=https://media.hitekno.com/thumbs/2022/11/18/99315-elon-musk-dan-pol-pot/350x230-img-99315-elon-musk-dan-pol-pot.jpg> South African emeralds will take you far."},
+    {searchString: "Carter", explanationText: "<img src=https://d3i6fh83elv35t.cloudfront.net/static/2024/10/2024-10-01T100018Z_2141368606_RC25N4A0A3QA_RTRMADP_3_PEOPLE-JIMMY-CARTER-1200x800.jpg> Was he even alive to begin with?"},
+    {searchString: "my bearded man", explanationText: "<img src=https://images.wsj.net/im-66664750?width=700&size=1.000&pixel_ratio=1.5> Patriot."},
+    {searchString: "dog lady", explanationText: "<img src=https://s.yimg.com/ny/api/res/1.2/rf9kRAeNBicthdYlG292Ew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/comingsoon_net_477/3e42ca312ed7b8d11475792ab16cd800> Not a dog person."},
+    {searchString: "Noem", explanationText: "<img src=https://s.yimg.com/ny/api/res/1.2/rf9kRAeNBicthdYlG292Ew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/comingsoon_net_477/3e42ca312ed7b8d11475792ab16cd800> Not a dog person."},
+    {searchString: "Netanyahu", explanationText: "<img src=https://www.eunews.it/wp-content/uploads/2025/09/AFP__20250929__776V9YQ__v2__HighRes__DonaldTrumpMeetsIsraeliPmBenjaminNetanyahu-1140x570.jpg> 51st state and all that."},
+    {searchString: "Molotov", explanationText: "<img src=https://substackcdn.com/image/fetch/$s_!-XtX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ccf9fd8-911d-48d1-a8f0-c0ccd91393cc_1174x1146.png> Secretary of War."},
+    {searchString: "Evans", explanationText: "<img src=https://i.guim.co.uk/img/media/0fadb8ce7e80cd36560b8f9487184dad9a7af4fe/0_0_4000_2667/master/4000.jpg?width=1900&dpr=2&s=none&crop=none> Missing his bathrobe."},
+    {searchString: "Lysenko", explanationText: "<img src=https://www.statnews.com/wp-content/uploads/2025/05/GettyImages-2215097881-1-1600x900.jpg> Kale mom secretary."},
+    {searchString: "Poutine", explanationText: "<img src=https://gdb.rferl.org/23ed2b64-e7bf-4833-b3d2-e6781e48ac49_w1534_s_d2.jpg> KGB man."},
+    {searchString: "Zlonskyy", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office%2C_Feb._28%2C_2025.jpg/500px-President_Trump_and_Ukrainian_President_Zelenskyy_Clash_During_Meeting_in_Oval_Office%2C_Feb._28%2C_2025.jpg> Drumph ples, 1 trillen."},
+    {searchString: "Marco", explanationText: "<img src=https://i2-prod.irishstar.com/article34777395.ece/ALTERNATES/s1200f/0_Marco.jpg> Old guard, and the only one who may be onto you."},
+    {searchString: "Ri Chun-hee", explanationText: "<img src=https://www.women.com/img/gallery/pam-bondis-worst-outfits-all-have-one-major-thing-in-common/intro-1745451226.webp> Pink Lady"},
+    {searchString: "Epstein", explanationText: "<img src=https://d3i6fh83elv35t.cloudfront.net/static/2025/07/GettyImages-681946576-1200x839.jpg> Best Friends for temporary."}, 
+    {searchString: "Beria", explanationText: "<img src=https://media.newyorker.com/photos/65cfdeb478a47b04f684b985/master/w_2240,c_limit/240226_r43800web.jpg> Didn't work out"},
+    {searchString: "Bill", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/e/e8/Clinton_Trump_2000_12.jpg> If only SHE wasn't there."},
+    {searchString: "Gates", explanationText: "<img src=https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/3/1412359267207/6d3e26c8-3705-46a2-8ce3-a266a6d8a26b-1024x768.jpeg?width=1900&dpr=2&s=none&crop=none> Delicious."}, 
+    {searchString: "Hawking", explanationText: "<img src=https://ichef.bbci.co.uk/news/1536/cpsprodpb/14543/production/_100476238_simpsons.jpg.webp> Lisa NO."},
+    {searchString: "Jack Horner", explanationText: "<img src=https://i.kym-cdn.com/photos/images/newsfeed/002/545/070/d15.gif> What a good boy I am."},
+    {searchString: "the suit not wearer", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lt._Gov._John_Fetterman_Portrait_%2846874790005%29.jpg/500px-Lt._Gov._John_Fetterman_Portrait_%2846874790005%29.jpg> Wait, wrong person."},
+
+];
+
+
+
+const style = document.createElement("style");
+style.textContent = `
+
+    #election_description_window {
+        background-color: #FFD700;
+        color: Black;
+        height: 275px;
+        border-color: #000000;
+        border-width: 2px;
+        border-style: solid;
+        border-image: initial;
+    }
+
+    #candidate_description_window {
+        background-color: #FFD700;
+        color: Black;
+        height: 352px;
+        border-color: #000000;
+        border-width: 2px;
+        border-style: solid;
+        border-image: initial;
+    }
+
+    #running_mate_description_window {
+        background-color: #FFD700;
+        color: Black;
+        height: 352px;
+        border-color: #000000;
+        border-width: 2px;
+        border-style: solid;
+        border-image: initial;
+    }
+
+    #election_image {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 10px;
+        height: 250px;
+    }
+    #election_image img{
+        padding: 1px 1px; 
+        border: 1px solid #C9C9C9;
+        z-index: 0;
+        opacity: 0;
+    }
+
+    #candidate_image {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 300px;
+        height: 352px;
+        background-image: 
+            url('https://i1.sndcdn.com/artworks-P3wPSy0B1tP1LCWZ-UC7Y2A-t1080x1080.jpg'); 
+        background-size: cover; 
+        z-index: 1;
+        border:none;
+        outline:none;
+    }
+    #candidate_image img{
+        padding: 1px 1px; 
+        border: 1px solid #C9C9C9;
+        z-index: 0;
+        opacity: 0;
+    }
+
+    #running_mate_image {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 300px;
+        height: 352px;
+        background-image: 
+            url('https://people.com/thmb/3ereDX-OiOF6Jda9ZND3X8UAyDQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(649x1399:651x1401)/JDVance-Halloween-X-110125-3-c1c9824893c14fecab0c5f7516bd98cc.jpg'); 
+        background-size: cover; 
+        z-index: 1;
+        border:none;
+        outline:none;
+    }
+    #running_mate_image img{
+        padding: 1px 1px; 
+        border: 1px solid #C9C9C9;
+        z-index: 0;
+        opacity: 0;
+    }
+    #opponent_selection_description_window{
+        background-color: #FFD700;
+    }
+`;
+
+function addDynamicCSS() {
+    var css = `
+
+        .inner_window_question h3 .mytooltip{
+            background-color: #FFD700;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #9E0000;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #FFD700;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+
+
+    #main_content_area,
+    #menu_container,
+    #overall_result h3,
+    #state_info h3,
+    #state_result h3,
+    #overall_result_container,
+    #state_result_container,
+    .overlay_window h3,
+    .inner_inner_window h3 {
+      background: #9E0000;
+    }
+
+    #map_container {
+      background-image: 
+        url('https://d2eehagpk5cl65.cloudfront.net/img/c800x450-w800-q80/uploads/2025/12/12-19-25-v1-c-800x450.jpg'); 
+    }
+
+    #visit_window,
+    .inner_window_question,
+    .inner_window_sign_display,
+    #overall_result,
+    #state_result,
+    #state_info{
+      background: #FFD700;
+    }
+
+    #campaign_sign {
+      background: #9E0000;
+      border: #FFD700;
+    }
+
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+addDynamicCSS();
+
+
+document.head.appendChild(style);
+
+//#startcode
+
+
+corrr = '\n              <h2>2 AMERICAN 2 CARNAGE</h2><font id="wittyquote" size="4" color="white"><em>“When was the last time that you saw this country have a victory? We dont have victories. What things am I going to do differently? Almost everything.”</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ff0000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#0000ff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#0000ff";
+
+document.getElementById("header").src = "https://upload.wikimedia.org/wikipedia/commons/1/10/Donald_Trump_takes_the_oath_of_office_%282025%29_%28alternate%29.jpg";
+
+document.body.background = "https://www.chosun.com/resizer/v2/5R36JEJGWRDCFOZNROPYJ6CVLU.jpg?auth=d3772f6d02a5ffe4ed56673eda1e8c732e763e24b160679f0dd39b96ec032688&width=216";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
